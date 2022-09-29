@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="app_name">Заказ кофе</string>
+	<string name="toppings">Добавки</string>
+	<string name="price">Цена</string>
+	<string name="quantity">Количество</string>
+	<string name="chocolate">Шоколад</string>
+	<string name="whipped_cream">Взбитые сливки</string>
+	<string name="calculate">Расчёт</string>
+	<string name="clear">Очистить</string>
+	<string name="total_cost">Общая стоимость</string>
+	<string name="order">Заказать</string>
+	<string name="order_summary">Состав заказа</string>
+	<string name="thank_you">Спасибо!</string>
+	<string name="name">Имя</string>
+	<string name="order_summary_name">Имя: <xliff:g>%s</xliff:g></string>
+	<string name="initial_quantity_value">2</string>
+	<string name="order_summary_quantity">Количество: <xliff:g>%d</xliff:g></string>
+	<string name="order_summary_chocolate">С шоколадом?</string>
+	<string name="order_summary_whipped_cream">Со сливками?</string>
+	<string name="order_summary_total_cost">Итог: <xliff:g>%s</xliff:g></string>
+	<string name="order_summary_email_subject">Заказ кофе для <xliff:g>%s</xliff:g></string>
+	<string name="order_summary_price">Цена: <xliff:g>%s</xliff:g></string>
+	<string name="dear_guest">Дарагой гость</string>
+	<string name="yes">Да</string>
+	<string name="no">Нет</string>
+	<string name="send">Отправить</string>
+</resources>

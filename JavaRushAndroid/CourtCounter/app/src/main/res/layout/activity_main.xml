@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context=".MainActivity">
+	
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="horizontal">
+		
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:orientation="vertical">
+			
+			<ImageView
+				android:layout_width="match_parent"
+				android:layout_height="200dp"
+				android:src="@drawable/rabbit1" />
+			
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_margin="8dp"
+				android:gravity="center"
+				android:textColor="#616161"
+				android:textSize="14sp"
+				android:fontFamily="sans-serif-medium"
+				android:text="Первая команда" />
+			
+			<TextView
+				android:layout_width="match_parent"
+				android:id="@+id/count_first_text_view"
+				android:layout_margin="8dp"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:gravity="center"
+				android:textColor="#000000"
+				android:textSize="56sp"
+				android:fontFamily="sans-serif-light"
+				android:text="0"
+				/>
+			
+			<Button
+				android:id="@+id/increaseFirstCountBy2Button"
+				android:layout_marginTop="8dp"
+				android:layout_marginLeft="24dp"
+				android:layout_marginRight="24dp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:text="+ 2"
+				android:onClick="changeCount"
+				/>
+			
+			<Button
+				android:id="@+id/increaseFirstCountBy3Button"
+				android:layout_marginTop="8dp"
+				android:layout_marginLeft="24dp"
+				android:layout_marginRight="24dp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:text="+ 3"
+				android:onClick="changeCount"
+				/>
+			
+			<Button
+				android:id="@+id/increaseFirstCountBy1Button"
+				android:layout_marginTop="8dp"
+				android:layout_marginLeft="24dp"
+				android:layout_marginRight="24dp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:text="+ 1"
+				android:onClick="changeCount"
+				/>
+		</LinearLayout>
+		
+		<View
+			android:layout_width="1dp"
+			android:layout_height="match_parent"
+			android:background="@android:color/darker_gray"
+			/>
+		
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:orientation="vertical">
+			
+			<ImageView
+				android:layout_width="match_parent"
+				android:layout_height="200dp"
+				android:src="@drawable/snake1"
+				/>
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_margin="8dp"
+				android:gravity="center"
+				android:textColor="#616161"
+				android:textSize="14sp"
+				android:fontFamily="sans-serif-medium"
+				android:text="Вторая команда" />
+			<TextView
+				android:id="@+id/count_second_text_view"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:gravity="center"
+				android:textColor="#000000"
+				android:textSize="56sp"
+				android:fontFamily="sans-serif-light"
+				android:text="0"
+				android:layout_margin="8dp"
+				/>
+			<Button
+				android:id="@+id/increaseSecondCountBy2Button"
+				android:layout_marginTop="8dp"
+				android:layout_marginLeft="24dp"
+				android:layout_marginRight="24dp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:text="+ 2"
+				android:onClick="changeCount"
+				/>
+			<Button
+				android:id="@+id/increaseSecondCountBy3Button"
+				android:layout_marginTop="8dp"
+				android:layout_marginLeft="24dp"
+				android:layout_marginRight="24dp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:text="+ 3"
+				android:onClick="changeCount"
+				/>
+			<Button
+				android:id="@+id/increaseSecondCountBy1Button"
+				android:layout_marginTop="8dp"
+				android:layout_marginLeft="24dp"
+				android:layout_marginRight="24dp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:text="+ 1"
+				android:onClick="changeCount"
+				/>
+		</LinearLayout>
+	
+	</LinearLayout>
+	
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		/>
+	
+	<Button
+		android:id="@+id/clearCountsButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		app:backgroundTint="#FF9800"
+		android:onClick="changeCount"
+		android:text="Очистить"
+		
+		/>
+	
+</LinearLayout>

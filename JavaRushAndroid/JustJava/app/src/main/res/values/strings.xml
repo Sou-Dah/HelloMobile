@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Just Java</string>
+    <string name="name">Name</string>
+    <string name="dear_guest">Dear guest</string>
+    <string name="toppings">Toppings</string>
+    <string name="whipped_cream">Whipped cream</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="quantity">Quantity</string>
+    <string name="initial_quantity_value">2</string>
+    <string name="price">Price</string>
+    <string name="calculate">Calculate</string>
+    <string name="clear">Clear</string>
+    <string name="total_cost">Total Cost</string>
+    <string name="order">Order</string>
+    <string name="order_summary">Order summary</string>
+    <string name="order_summary_name">Name: <xliff:g>%s</xliff:g></string>
+    <string name="order_summary_whipped_cream">Add whipped cream?</string>
+    <string name="order_summary_chocolate">Add chocolate?</string>
+    <string name="order_summary_price">Price: <xliff:g>%s</xliff:g></string>
+    <string name="order_summary_quantity">Quantity: <xliff:g>%d</xliff:g></string>
+    <string name="order_summary_total_cost">Total: <xliff:g>%s</xliff:g></string>
+    <string name="thank_you">Thank you!</string>
+    <string name="order_summary_email_subject">Just java for <xliff:g>%s</xliff:g></string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="send">Send</string>
+</resources>
